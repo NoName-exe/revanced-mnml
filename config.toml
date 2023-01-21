@@ -4,6 +4,7 @@ logging-to-file = true # enables logging of every patch process to a seperate fi
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 3 # max number of concurrent building jobs
 build-mindetach-module = false
+rv-brand = "ReVanced MNML"
 
 [YouTube]
 enabled = true # add 'enabled = false' key to entries to not build them
