@@ -6,8 +6,9 @@ parallel-jobs = 3 # max number of concurrent building jobs
 build-mindetach-module = false
 rv-brand = "ReVanced MNML"
 
+# add 'enabled = false' for not patching a specific app
 [YouTube]
-enabled = true # add 'enabled = false' key to entries to not build them
+enabled = true
 build-mode = "both" # 'both', 'apk' or 'module'
 excluded-patches = "debugging always-autorepeat comments custom-video-speed disable-fullscreen-panels hide-album-cards hide-artist-card hide-captions-button hide-cast-button hide-create-button hide-endscreen-cards hide-shorts-button hide-time-and-seekbar premium-heading remember-playback-rate seekbar-tapping spoof-app-version" # whitespace seperated list of patches to exclude (multiline strings are not supported)
 included-patches = "" # whitespace seperated list of patches to include
