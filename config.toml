@@ -10,8 +10,8 @@ rv-brand = "ReVanced MNML"
 [YouTube]
 enabled = true
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "always-autorepeat comments custom-video-speed debugging disable-fullscreen-panels hide-album-cards hide-artist-card hide-captions-button hide-cast-button hide-create-button hide-endscreen-cards hide-seekbar hide-shorts-button hide-timestamp premium-heading remember-playback-rate seekbar-tapping spoof-app-version"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # whitespace seperated list of patches to include
+excluded-patches = "always-autorepeat comments custom-video-speed debugging disable-fullscreen-panels hide-album-cards hide-artist-card hide-captions-button hide-cast-button hide-create-button hide-endscreen-cards hide-seekbar hide-shorts-button hide-timestamp navigation-buttons premium-heading remember-playback-rate seekbar-tapping spoof-app-version"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
+included-patches = "hide-player-overlay"                              # whitespace seperated list of patches to include
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
