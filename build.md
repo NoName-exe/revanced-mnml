@@ -1,16 +1,16 @@
 YouTube: 18.23.35  
-Music: 6.08.50  
+Music: 6.10.51  
 Twitter: 9.71.0-release.0  
-Reddit: 2023.26.0  
+Reddit: 2023.27.0  
 Twitch: 15.4.1  
 
-Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
+Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
 [Main Repo](https://github.com/NoName-exe/revanced-mnml)  
 
 ---
 Changelog:  
-CLI: j-hc/revanced-cli-2.22.0-all.jar  
+CLI: j-hc/revanced-cli-2.23.0-all.jar  
 Integrations: revanced/revanced-integrations-0.112.0.apk  
 Patches: revanced/revanced-patches-2.184.0.jar  
 
