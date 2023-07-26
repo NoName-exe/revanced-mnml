@@ -11,7 +11,6 @@ build-mode = "both"                                                   # 'both', 
 excluded-patches = "always-autorepeat comments custom-video-speed disable-fullscreen-panels enable-debugging hide-album-cards hide-artist-card hide-captions-button hide-cast-button hide-create-button hide-endscreen-cards hide-seekbar hide-shorts-button hide-timestamp navigation-buttons premium-heading remember-playback-rate seekbar-tapping spoof-app-version"                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = "hide-player-overlay"                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
-exclusive-patches = false                                             # excludes all patches by default and only applies included-patches
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rv-mnml"
 
@@ -28,13 +27,8 @@ apkmirror-arch = "arm64-v8a"
 [Twitter]
 build-mode = "apk"
 version = "auto"
-excluded-patches = "hide-views-stats"
+excluded-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
-
-[Reddit]
-build-mode = "apk"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Twitch]
 build-mode = "apk"
