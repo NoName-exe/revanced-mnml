@@ -7,8 +7,8 @@ rv-brand = "ReVanced MNML"
 
 [YouTube]
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "always-autorepeat comments custom-video-speed disable-fullscreen-panels enable-debugging hide-album-cards hide-artist-card hide-captions-button hide-cast-button hide-create-button hide-endscreen-cards hide-seekbar hide-shorts-button hide-timestamp navigation-buttons premium-heading remember-playback-rate seekbar-tapping spoof-app-version"                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = "hide-player-overlay"                                                 # space-seperated patches to include (non-excluded patches are included by default)
+excluded-patches = "'Seekbar tapping' 'Always autorepeat' 'Enable debugging' 'Client spoof' 'Hide filter bar' 'Hide endscreen cards' 'Hide album cards' 'Hide seekbar' 'Hide cast button' 'Enable tablet layout' 'Premium heading' 'Spoof app version' 'Alternative thumbnails'"                                                 # space-seperated patches to exclude (multiline strings are not supported)
+included-patches = "'Remove player controls background'"                                                # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rv-mnml"
@@ -17,7 +17,7 @@ module-prop-name = "yt-rv-mnml"
 build-mode = "both"
 app-name = "YouTube-Music"
 excluded-patches = ""
-included-patches = ""
+included-patches = "'Permanent repeat' 'Permanent shuffle'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rv-mnml"
