@@ -5,11 +5,13 @@ rv-brand = "ReVanced MNML"
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
+# you can use rvmm-config-gen to generate a config
+
 [YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "'Seekbar tapping' 'Always autorepeat' 'Enable debugging' 'Client spoof' 'Hide filter bar' 'Hide endscreen cards' 'Hide album cards' 'Hide seekbar' 'Hide cast button' 'Enable tablet layout' 'Premium heading' 'Spoof app version' 'Alternative thumbnails'"                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = "'Remove player controls background'"                                                # space-seperated patches to include (non-excluded patches are included by default)
-version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
+build-mode = "both"                                                   
+excluded-patches = "'Seekbar tapping' 'Always autorepeat' 'Enable debugging' 'Client spoof' 'Hide filter bar' 'Hide endscreen cards' 'Hide album cards' 'Hide seekbar' 'Hide cast button' 'Enable tablet layout' 'Premium heading' 'Spoof app version' 'Alternative thumbnails'"
+included-patches = "'Remove player controls background'"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rv-mnml"
 
