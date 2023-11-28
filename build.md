@@ -1,7 +1,7 @@
 YouTube: 18.45.41  
 Twitch: 16.9.1  
-Twitter: 10.16.0-release.0  
 Music: 6.28.52  
+Twitter: 10.16.0-release.0  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music.  
 Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.  
@@ -10,6 +10,6 @@ Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](htt
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.1.0-all.jar  
-Integrations: ReVanced/revanced-integrations-0.124.0.apk  
-Patches: ReVanced/revanced-patches-2.201.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.201.0)  
+Integrations: ReVanced/revanced-integrations-0.124.1.apk  
+Patches: ReVanced/revanced-patches-2.201.1.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.201.1)  
