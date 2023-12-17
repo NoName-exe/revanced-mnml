@@ -23,7 +23,7 @@ included-patches = "'Permanent repeat' 'Permanent shuffle'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rv-mnml"
-apkmirror-arch = "arm64-v8a"
+arch = "arm64-v8a"
 
 [Twitter]
 build-mode = "apk"
