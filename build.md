@@ -1,6 +1,6 @@
 YouTube: 19.04.37  
-Music: 6.41.58  
 Twitch: 16.9.1  
+Music: 6.41.58  
 Twitter: 10.30.0-release.0  
 
 Install [Vanced Microg](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music.  
