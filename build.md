@@ -1,5 +1,4 @@
 YouTube: 19.04.37  
-Music: 6.41.58  
 Twitch: 16.9.1  
 Twitter: 10.30.0-release.0  
 
