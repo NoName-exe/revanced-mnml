@@ -27,7 +27,7 @@ arch = "arm64-v8a"
 [Twitter]
 build-mode = "apk"
 version = "auto"
-excluded-patches = ""
+apkmirror-dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
