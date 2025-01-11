@@ -28,6 +28,7 @@ arch = "arm64-v8a"
 [Photos]
 version = "latest"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photos/"
+excluded-patches = "'Restore hidden 'Back up while charging' toggle'"
 arch = "arm64-v8a"
 
 [Infinity]
