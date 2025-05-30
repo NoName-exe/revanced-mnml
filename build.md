@@ -1,6 +1,6 @@
 Infinity: 7.4.1  
 Music: 8.05.51  
-Photos: 7.29.0.757514586  
+Photos: 7.31.0.763184430  
 YouTube: 20.12.46  
 
 Install [MicroG](https://github.com/ReVanced/GmsCore/releases) to be able to use non-root YouTube or YouTube-Music.  
@@ -8,5 +8,5 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store f
 
 [Main Repo](https://github.com/NoName-exe/revanced-mnml)  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.24.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.24.0)  
+Patches: ReVanced/patches-5.25.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.25.0)  
