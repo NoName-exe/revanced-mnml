@@ -1,6 +1,6 @@
 {
-  "version": "v20.13.41 (patches: 5.32.0)",
-  "versionCode": 103,
-  "zipUrl": "https://github.com/NoName-exe/revanced-mnml/releases/download/103/youtube-revanced-mnml-magisk-v20.13.41-all.zip",
+  "version": "v20.13.41 (patches: 5.33.0)",
+  "versionCode": 104,
+  "zipUrl": "https://github.com/NoName-exe/revanced-mnml/releases/download/104/youtube-revanced-mnml-magisk-v20.13.41-all.zip",
   "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-mnml/update/build.md"
 }
