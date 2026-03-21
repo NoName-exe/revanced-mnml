@@ -29,11 +29,13 @@ arch = "arm64-v8a"
 
 [Photos]
 version = "latest"
+dpi = "nodpi"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photos/"
 excluded-patches = "'Restore hidden 'Back up while charging' toggle'"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 arch = "arm64-v8a"
 
 [Infinity]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
-included-patches = "'Spoof client' 'Unlock subscription'"
 patcher-args = "-e 'Spoof client' -Oclient-id='$(echo $RDT_API)'"
+dpi = "nodpi"
